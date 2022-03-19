@@ -2,7 +2,7 @@
   "name": "@svitejs/vite-plugin-template",
   "version": "0.0.0",
   "license": "MIT",
-  "author": "~~AUTHOR~~",
+  "author": "Emerson Bottero",
   "private": true,
   "type": "module",
   "main": "dist/index.cjs",

@@ -1,0 +1,36 @@
+{
+  "name": "servicenow.core.docs",
+  "version": "1.0.0",
+  "description": "ServiceNow.Core documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "repository": "git+https://github.com/emersonbottero/ServiceNow.Core.git",
+  "keywords": [
+    "ServiceNow",
+    "API",
+    "C#"
+  ],
+  "author": "Emerson Bottero Branco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emersonbottero/ServiceNow.Core/issues"
+  },
+  "homepage": "https://github.com/emersonbottero/ServiceNow.Core#readme",
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "del-cli": "^4.0.1",
+    "replace-in-files": "^3.0.0",
+    "rimraf": "^3.0.2",
+    "shx": "^0.3.4",
+    "vitepress": "^0.21.4"
+  },
+  "dependencies": {
+    "@svitejs/vite-plugin-template": "file:../vite-plugin-template",
+    "vitepress-dark-theme": "^0.1.4"
+  }
+}

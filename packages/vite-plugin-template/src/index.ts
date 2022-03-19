@@ -14,6 +14,9 @@ export function pluginFunction(inlineOptions?: Partial<Options>): Plugin {
 		...DEFAULT_OPTIONS,
 		...inlineOptions
 	};
+
+	console.log('Yeeeeeeeeeeeeeeaaaa');
+
 	return {
 		name: 'vite-plugin-template'
 		// add hooks here
